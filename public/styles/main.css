@@ -1,0 +1,35 @@
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.ajs-message.ajs-warning.ajs-visible {
+    background: red !important;
+    color: white;
+    font-weight: bold;
+}
+
+.ajs-message.ajs-success.ajs-visible {
+    background: green !important;
+    color: white;
+    font-weight: bold;
+}
